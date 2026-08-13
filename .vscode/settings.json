@@ -1,0 +1,6 @@
+{
+  "oxc.path.node": "${workspaceFolder}/.vscode/mise-tools/node",
+  "debug.javascript.defaultRuntimeExecutable": {
+    "pwa-node": "${workspaceFolder}/.vscode/mise-tools/node"
+  }
+}

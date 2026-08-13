@@ -1,0 +1,33 @@
+---
+lockfileVersion: '9.0'
+
+importers:
+
+  .:
+    configDependencies:
+      '@pnpm/plugin-types-fixer':
+        specifier: 0.1.0
+        version: 0.1.0
+
+packages:
+
+  '@pnpm/plugin-types-fixer@0.1.0':
+    resolution: {integrity: sha512-bLww63gRHi7siYTqFJb5qNdcXadU0jv20Et6z5AryMZ7FlLolbEJOrXLpg8+amQZNHHNW1dfFUBGVw/9ezQbFg==}
+
+snapshots:
+
+  '@pnpm/plugin-types-fixer@0.1.0': {}
+
+---
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  dedupePeers: true
+  excludeLinksFromLockfile: false
+
+pnpmfileChecksum: sha256-nVOmFZ6JT8FxIhcN+S5sJXuP1DtIhTre5ZGvjJU+4tk=
+
+importers:
+
+  .: {}
