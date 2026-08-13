@@ -1,0 +1,27 @@
+:root {
+  --revert: revert;
+  --text-indent: 2rem;
+
+  --h1-font-size: 2.5rem;
+  --h1-line-height: 3rem;
+  --h2-font-size: 2rem;
+  --h2-line-height: 2.5rem;
+  --h3-font-size: 1.5rem;
+  --h3-line-height: 2rem;
+
+  --p-emphasis-font-size: 1.1rem;
+  --p-emphasis-line-height: 1.25rem;
+
+  --sizes-gap-m: 1rem;
+
+  --sizes-margin-xxs: 0.125rem;
+  --sizes-margin-xs: 0.25rem;
+  --sizes-margin-s: 0.5rem;
+  --sizes-margin-m: 1rem;
+  --sizes-margin-l: 1.5rem;
+  --sizes-margin-xl: 2rem;
+  --sizes-margin-xxl: 3rem;
+
+  --sizes-dynamic-width-xs: 35dvw;
+  --sizes-dynamic-width-xl: 85dvw;
+}

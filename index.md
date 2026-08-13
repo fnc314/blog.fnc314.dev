@@ -8,11 +8,11 @@ hero:
   tagline: Home of my thoughts, concepts, and ramblings.
 features:
   - icon:
-      src: ./../assets/taming-the-elephant-heard/gradle-logo.png
+      src: ./assets/taming-the-elephant-heard/gradle-logo.png
       alt: Gradle logo
     title: Taming the Elephant Heard
     details: A series following the modernation, stabilization, and the reworking of a decade-old Android codebase into a future-proof workhorse.
-    link: ./taming-the-elephant-heard/index
+    link: ./posts/taming-the-elephant-heard/
 ---
 
 <style module>
@@ -42,19 +42,21 @@ features:
     <picture>
       <source
         type="image/webp"
-        srcset="./../assets/profile-photo/profile-photo-750.webp 750w, ./../assets/profile-photo/profile-photo-1200.webp 1200w, ./../assets/profile-photo/profile-photo-1500.webp"
+        srcset="./assets/profile-photo/profile-photo-750.webp 750w, ./assets/profile-photo/profile-photo-1200.webp 1200w, ./assets/profile-photo/profile-photo-1500.webp"
         sizes="(max-width: 768px) 95vw, (max-width: 1200px) 50vw, 33vw"
       />
       <img
         type="image/webp"
         class="profile-picture"
         loading="eager"
-        src="./../assets/profile-photo/profile-photo-1200.webp"
+        src="./assets/profile-photo/profile-photo-1200.webp"
         alt="Profile Photo of Franco N. Colaizzi with a blurred background of Abruzzo, Italy from 2025"
         fetchpriority="high"
         decoding="sync"
       />
     </picture>
-    <figcaption class="md-typescale-title-medium profile-figcaption">Me in Abruzzo, Italy in 2025</figcaption>
+    <figcaption class="profile-figcaption">
+      Me in Abruzzo, Italy in 2025
+    </figcaption>
   </figure>
 </section>

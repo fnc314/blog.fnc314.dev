@@ -11,7 +11,7 @@ export default async () => {
   const srcDir = ".";
 
   // Keep your monorepo-root relative asset paths intact
-  const iconsDir = "public/icon";
+  const iconsDir = "/assets/icon";
 
   const userConfig: UserConfig<DefaultTheme.Config> = {
     title: "Franco's Blog",
@@ -22,7 +22,7 @@ export default async () => {
     dir: srcDir,
     srcDir: srcDir,
     cleanUrls: true,
-    assetsDir: "public",
+    assetsDir: "assets",
     metaChunk: true,
     // scrollOffset: {
     //   selector: "figure",
@@ -53,6 +53,7 @@ export default async () => {
       breaks: true,
       lineNumbers: true,
       typographer: true,
+      headers: true,
       image: {
         lazyLoading: true,
       },
@@ -87,6 +88,7 @@ export default async () => {
         copyright: `All Rights Reserved`,
         message: `Franco N. Colaizzi - <a href="/">Home</a>`,
       },
+      editLink: undefined, // Disables this
       externalLinkIcon: true,
       lastUpdated: {
         text: "Updated on",
@@ -111,15 +113,15 @@ export default async () => {
       darkModeSwitchTitle: "Switch to Dark Mode",
       returnToTopLabel: "",
       logo: {
-        // src: `./../../public/icon/icon.svg`,
-        dark: "/public/icon/icon-dark.svg",
-        light: "/public/icon/icon-light.svg",
+        src: `${iconsDir}/icon.svg`,
+        dark: `${iconsDir}/icon-dark.svg`,
+        light: `${iconsDir}/icon-light.svg`,
         alt: "Blog Site Logo",
       },
       logoLink: {
         link: "/",
         rel: "noopener noreferrer",
-        // target: "_blank",
+        target: "_self",
       },
       notFound: {
         linkLabel: "Return to https://blog.fnc314.dev",
@@ -148,30 +150,17 @@ export default async () => {
       },
       socialLinks: [
         {
-          icon: {
-            svg: "./public/icon/icon.svg",
-          },
-          link: "/",
-          ariaLabel: "Link to Portfolio Site"
-        },
-        {
-          icon: {
-            svg: `${iconsDir}/github/github-mask.svg`
-          },
+          icon: "github",
           link: "https://www.github.com/fnc314",
           ariaLabel: "Link to GitHub"
         },
         {
-          icon: {
-            svg: `${iconsDir}/linkedin/linkedin-mask.svg`
-          },
+          icon: "linkedin",
           link: "https://www.linkedin.com/in/fnc314",
           ariaLabel: "Link to LinkedIn"
         },
         {
-          icon: {
-            svg: `${iconsDir}/medium/medium-mask.svg`
-          },
+          icon: "medium",
           link: "https://fnc314.medium.com",
           ariaLabel: "Link to Medium"
         },
