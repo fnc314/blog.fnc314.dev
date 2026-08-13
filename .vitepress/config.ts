@@ -2,9 +2,6 @@ import { type DefaultTheme, type UserConfig, defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default async () => {
-  // Determine if VitePress is running from monorepo root or nested app root
-  const isNestedRun = process.cwd().endsWith("blog");
-
   // Fix: If running "vitepress build sites/blog", process.cwd() is the root,
   // but VitePress shifts its internal execution root to "sites/blog".
   // Therefore, srcDir should just be "." because VitePress is already inside "sites/blog".
@@ -174,7 +171,6 @@ export default async () => {
     JSON.stringify(
       {
         "process.cwd": process.cwd(),
-        isNestedRun,
         iconsDir,
         userConfig,
         definedConfig,
