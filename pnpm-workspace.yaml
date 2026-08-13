@@ -1,3 +1,5 @@
+allowBuilds:
+  esbuild: true
 catalogMode: "strict"
 catalogs:
   dependencies:
