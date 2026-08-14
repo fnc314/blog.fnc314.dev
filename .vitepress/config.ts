@@ -36,7 +36,7 @@ export default async () => {
       // base: "/",
       // Ensure Vite resolves correctly relative to your command execution
       // root: isNestedRun ? process.cwd() : `${process.cwd()}/sites/blog`,
-      configFile: ".config/vite/vite.config.ts",
+      configFile: `${process.cwd()}/.config/vite/vite.config.ts`,
     },
     vue: {
       features: {

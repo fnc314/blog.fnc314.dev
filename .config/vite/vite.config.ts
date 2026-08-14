@@ -8,6 +8,7 @@ export default defineConfig(
         copyPublicDir: true,
         emptyOutDir: true,
       },
+      input: "index.md",
       publicDir: "assets",
       root: process.cwd(),
     };
