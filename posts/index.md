@@ -8,7 +8,7 @@ hero:
   tagline: Current Posts
 features:
   - icon:
-      src: ./../assets/taming-the-elephant-heard/gradle-logo.png
+      src: /assets/taming-the-elephant-heard/gradle-logo.png
       alt: Gradle logo
     title: Taming the Elephant Heard
     details: A series following the modernation, stabilization, and the reworking of a decade-old Android codebase into a future-proof workhorse.

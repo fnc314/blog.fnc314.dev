@@ -8,7 +8,7 @@ hero:
   text: Taming the Elephant Heard
   tagline: A series following the modernation, stabilization, and the reworking of a decade-old Android codebase into a future-proof workhorse.
   image:
-    src: ./../../assets/taming-the-elephant-heard/gradle-logo.png
+    src: /../assets/taming-the-elephant-heard/gradle-logo.png
     alt: Gradle Logo
   actions:
     - theme: brand

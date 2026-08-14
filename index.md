@@ -41,14 +41,14 @@ hero:
     <picture>
       <source
         type="image/webp"
-        srcset="./assets/profile-photo/profile-photo-750.webp 750w, ./assets/profile-photo/profile-photo-1200.webp 1200w, ./assets/profile-photo/profile-photo-1500.webp"
+        srcset="/assets/profile-photo/profile-photo-750.webp 750w, /assets/profile-photo/profile-photo-1200.webp 1200w, /assets/profile-photo/profile-photo-1500.webp"
         sizes="(max-width: 768px) 95vw, (max-width: 1200px) 50vw, 33vw"
       />
       <img
         type="image/webp"
         class="profile-picture"
         loading="eager"
-        src="./assets/profile-photo/profile-photo-1200.webp"
+        src="/assets/profile-photo/profile-photo-1200.webp"
         alt="Profile Photo of Franco N. Colaizzi with a blurred background of Abruzzo, Italy from 2025"
         fetchpriority="high"
         decoding="sync"

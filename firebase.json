@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/firebase/firebase-tools/main/schema/firebase-config.json",
+  "apphosting": {
+    "backendId": "blog-fnc314-dev",
+    "rootDir": "/",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "functions"
+    ]
+  },
+  "hosting": {
+    "public": ".vitepress/dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "us-east4"
+    },
+    "trailingSlash": true,
+    "cleanUrls": true
+  }
+}
