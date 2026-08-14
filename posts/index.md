@@ -1,11 +1,11 @@
 ---
 layout: home
 home: true
-title: Franco's Blog
-description: Home of my thoughts, concepts, and ramblings.
+title: Blog Posts
+description: Current Posts
 hero:
-  name: Franco's Blog
-  tagline: Home of my thoughts, concepts, and ramblings.
+  name: Blog Posts
+  tagline: Current Posts
 features:
   - icon:
       src: ./../assets/taming-the-elephant-heard/gradle-logo.png
@@ -13,48 +13,10 @@ features:
     title: Taming the Elephant Heard
     details: A series following the modernation, stabilization, and the reworking of a decade-old Android codebase into a future-proof workhorse.
     link: ./taming-the-elephant-heard/index
+  - title: API Examples
+    details: Auto-generated file for example routing.
+    link: ./api-examples.md
+  - title: Markdown Examples
+    details: Auto-generated file for example routing.
+    link: ./markdown-examples.md
 ---
-
-<style module>
-  section {
-    margin-block: var(--sizes-margin-xl);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    figure {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: var(--sizes-gap-m);
-
-      picture {
-        max-inline-size: var(--sizes-dynamic-width-xs);
-      }
-    }
-
-  }
-</style>
-
-<section>
-  <figure>
-    <picture>
-      <source
-        type="image/webp"
-        srcset="./../assets/profile-photo/profile-photo-750.webp 750w, ./../assets/profile-photo/profile-photo-1200.webp 1200w, ./../assets/profile-photo/profile-photo-1500.webp"
-        sizes="(max-width: 768px) 95vw, (max-width: 1200px) 50vw, 33vw"
-      />
-      <img
-        type="image/webp"
-        class="profile-picture"
-        loading="eager"
-        src="./../assets/profile-photo/profile-photo-1200.webp"
-        alt="Profile Photo of Franco N. Colaizzi with a blurred background of Abruzzo, Italy from 2025"
-        fetchpriority="high"
-        decoding="sync"
-      />
-    </picture>
-    <figcaption class="md-typescale-title-medium profile-figcaption">Me in Abruzzo, Italy in 2025</figcaption>
-  </figure>
-</section>

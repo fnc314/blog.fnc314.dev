@@ -1,4 +1,4 @@
-## Intro
+# Intro
 
 My name is Franco and I’m a systems architect who specializes in mobile systems and particularly Android applications. I recently had the opportunity to work in and subsequently oversee the customer-facing Android application codebase for a large organization. Over this period, and out of equal parts curiosity and need, I had the chance to not only learn, but come to greatly enjoy the wonderful world of `Gradle`.
 

@@ -21,10 +21,9 @@ export default async () => {
     cleanUrls: true,
     assetsDir: "assets",
     metaChunk: true,
-    // scrollOffset: {
-    //   selector: "figure",
-    //   padding: 0,
-    // },
+    srcExclude: [
+      "./README.md",
+    ],
     appearance: {
       deep: true,
       initOnMounted: true,
@@ -82,8 +81,8 @@ export default async () => {
       nav: [],
       siteTitle: false,
       footer: {
-        copyright: `All Rights Reserved`,
-        message: `Franco N. Colaizzi - <a href="/">Home</a>`,
+        message: `Franco N. Colaizzi - <a href="/posts">Blog Home</a>`,
+        copyright: `<a href="https://www.fnc314.dev/">Portfolio Home</a>`,
       },
       editLink: undefined, // Disables this
       externalLinkIcon: true,
@@ -131,20 +130,7 @@ export default async () => {
         level: "deep",
         label: "Outline"
       },
-      search: {
-        provider: "local",
-        options: {
-          disableQueryPersistence: true,
-          miniSearch: {
-            searchOptions: {
-              weights: {
-                fuzzy: 0.5,
-                prefix: 0.5,
-              },
-            },
-          }
-        }
-      },
+      search: undefined,
       socialLinks: [
         {
           icon: "github",

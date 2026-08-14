@@ -9,6 +9,8 @@
   },
   "description": "VitePress-powered blog site",
   "devDependencies": {
+    "typescript": "catalog:typescript",
+    "typescript7": "catalog:typescript",
     "vite": "catalog:devDependencies",
     "vitepress": "catalog:devDependencies"
   },

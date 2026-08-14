@@ -73,6 +73,7 @@
   "include": [
     ".vitepress/theme/**/*.{css,ts,vue}",
     ".vitepress/config.ts",
+    "./**/*.{css,ts,vue}"
   ],
   "references": [],
   "ts-node": {
