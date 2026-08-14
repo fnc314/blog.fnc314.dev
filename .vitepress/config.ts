@@ -8,7 +8,7 @@ export default async () => {
   const srcDir = ".";
 
   // Keep your monorepo-root relative asset paths intact
-  const iconsDir = "/assets/icon";
+  const iconsDir = "/icon";
 
   const userConfig: UserConfig<DefaultTheme.Config> = {
     title: "Franco's Blog",
