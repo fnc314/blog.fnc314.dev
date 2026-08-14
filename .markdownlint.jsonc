@@ -2,5 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint/refs/tags/v0.41.1/schema/markdownlint-config-schema-strict.json",
   "no-inline-html": false,
   "blank_lines": false,
-  "MD013": false
+  "MD013": false,
+  "MD025": false,
+  "MD041": false
 }
