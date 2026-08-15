@@ -86,8 +86,62 @@ export default async () => {
     ],
     themeConfig: {
       aside: false,
-      sidebar: {},
-      nav: [],
+      sidebar: [
+        {
+          text: "Taming the Elephant Heard",
+          items: [
+            {
+              text: "From Mayhem to Micro-Managed",
+              link: "/posts/taming-the-elephant-heard/01-from-mayhem-to-micro-managed",
+              target: "_self",
+            },
+            {
+              text: "Establishing Existing Order",
+              link: "/posts/taming-the-elephant-heard/02-establishing-existing-order",
+              target: "_self",
+            },
+            {
+              text: "Plugins Over Copy-Paste",
+              link: "/posts/taming-the-elephant-heard/03-plugins-over-copy-paste",
+              target: "_self",
+            },
+            {
+              text: "Into the Wider Infrastructure",
+              link: "/posts/taming-the-elephant-heard/04-into-the-wider-infrastructure",
+              target: "_self",
+            },
+            {
+              text: "Right Tool for the Job",
+              link: "/posts/taming-the-elephant-heard/05-right-tool-for-the-job",
+              target: "_self",
+            },
+            {
+              text: "Screaming and Scripted Architecture",
+              link: "/posts/taming-the-elephant-heard/06-screaming-and-scripted-architecture",
+              target: "_self",
+            },
+            {
+              text: "To Future States and Beyond",
+              link: "/posts/taming-the-elephant-heard/07-to-future-states-and-beyond",
+              target: "_self",
+            }
+          ]
+        }
+      ],
+      nav: [
+        {
+          text: "Home",
+          link: "/",
+          noIcon: false,
+          target: "_self",
+        },
+        {
+          text: "Posts",
+          link: "/posts",
+          noIcon: false,
+          target: "_self",
+        }
+      ],
       siteTitle: false,
       footer: {
         message: `Franco N. Colaizzi - <a href="/posts">Blog Home</a>`,
