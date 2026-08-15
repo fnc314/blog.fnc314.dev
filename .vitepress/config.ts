@@ -149,14 +149,14 @@ export default async () => {
         "meta",
         {
           name: "description",
-          content: "Blog site for Franco Colaizzi - blog.fnc314.dev",
+          content: "Blog site for Franco N. Colaizzi - blog.fnc314.dev",
         }
       ],
       [
         "meta",
         {
           property: "og:title",
-          content: "fnc314.dev",
+          content: "blog.fnc314.dev",
         }
       ],
       [
@@ -172,52 +172,109 @@ export default async () => {
           property: "og:description",
           content: "Blog site for Franco Colaizzi - blog.fnc314.dev",
         }
-      ]
+      ],
+      [
+        "meta",
+        {
+          property: "og:image",
+          content: "/profile-photo/profile-photo-1200.webp",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "og:image:secure_url",
+          content: "/profile-photo/profile-photo-1200.webp",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "og:image:secure_url",
+          content: "/profile-photo/profile-photo-1200.webp",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "og:image:type",
+          content: "image/webp",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "og:image:alt",
+          content: "Profile Photo of Franco N. Colaizzi with a blurred background of Abruzzo, Italy from 2025",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "og:image:width",
+          content: "1200",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "og:image:height",
+          content: "1735",
+        }
+      ],
+      // Twitter
+      [
+        "meta",
+        {
+          property: "twitter:title",
+          content: "blog.fnc314.dev",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "twitter:site",
+          content: "@fnc314",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "twitter:creator",
+          content: "@fnc314",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "twitter:url",
+          content: "https://blog.fnc314.dev",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "twitter:description",
+          content: "Blog site for Franco N. Colaizzi - blog.fnc314.dev",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "twitter:image",
+          content: "/profile-photo/profile-photo-1200.webp",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "twitter:image:alt",
+          content: "Profile Photo of Franco N. Colaizzi with a blurred background of Abruzzo, Italy from 2025",
+        }
+      ],
     ],
     themeConfig: {
       aside: false,
-      // sidebar: [
-      //   {
-      //     text: "Taming the Elephant Heard",
-      //     items: [
-      //       {
-      //         text: "From Mayhem to Micro-Managed",
-      //         link: "/posts/taming-the-elephant-heard/01-from-mayhem-to-micro-managed",
-      //         target: "_self",
-      //       },
-      //       {
-      //         text: "Establishing Existing Order",
-      //         link: "/posts/taming-the-elephant-heard/02-establishing-existing-order",
-      //         target: "_self",
-      //       },
-      //       {
-      //         text: "Plugins Over Copy-Paste",
-      //         link: "/posts/taming-the-elephant-heard/03-plugins-over-copy-paste",
-      //         target: "_self",
-      //       },
-      //       {
-      //         text: "Into the Wider Infrastructure",
-      //         link: "/posts/taming-the-elephant-heard/04-into-the-wider-infrastructure",
-      //         target: "_self",
-      //       },
-      //       {
-      //         text: "Right Tool for the Job",
-      //         link: "/posts/taming-the-elephant-heard/05-right-tool-for-the-job",
-      //         target: "_self",
-      //       },
-      //       {
-      //         text: "Screaming and Scripted Architecture",
-      //         link: "/posts/taming-the-elephant-heard/06-screaming-and-scripted-architecture",
-      //         target: "_self",
-      //       },
-      //       {
-      //         text: "To Future States and Beyond",
-      //         link: "/posts/taming-the-elephant-heard/07-to-future-states-and-beyond",
-      //         target: "_self",
-      //       }
-      //     ]
-      //   }
-      // ],
       nav: [
         {
           text: "Home",
