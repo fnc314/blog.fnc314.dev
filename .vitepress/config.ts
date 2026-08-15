@@ -73,7 +73,7 @@ export default async () => {
     },
     sitemap: {
       hostname: "https://blog.fnc314.dev",
-      lastmodDateOnly: true,
+      lastmodDateOnly: false,
     },
     head: [
       [
@@ -81,6 +81,96 @@ export default async () => {
         {
           rel: "icon",
           href: "./icon/favicon.ico"
+        }
+      ],
+      [
+        "link",
+        {
+          rel: "icon",
+          href: "./icon/favicon-32x32.png",
+          type: "image/png",
+          sizes: "32x32",
+        }
+      ],
+      [
+        "link",
+        {
+          rel: "icon",
+          href: "./icon/favicon-16x16.png",
+          type: "image/png",
+          sizes: "16x16",
+        }
+      ],
+      [
+        "link",
+        {
+          rel: "icon",
+          href: "./icon/icon.svg",
+          type: "image/svg+xml",
+          sizes: "any",
+        }
+      ],
+      [
+        "link",
+        {
+          rel: "apple-touch-icon",
+          href: "./icon/apple-touch-icon.png",
+        }
+      ],
+      [
+        "meta",
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0, viewport-fit=contain"
+        }
+      ],
+      [
+        "meta",
+        {
+          name: "apple-mobile-web-app-capable",
+          content: "yes",
+        }
+      ],
+      [
+        "meta",
+        {
+          name: "mobile-web-app-capable",
+          content: "yes",
+        }
+      ],
+      [
+        "meta",
+        {
+          name: "apple-mobile-web-app-status-bar-style",
+          content: "black-translucent",
+        }
+      ],
+      [
+        "meta",
+        {
+          name: "description",
+          content: "Blog site for Franco Colaizzi - blog.fnc314.dev",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "og:title",
+          content: "fnc314.dev",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "og:url",
+          content: "https://blog.fnc314.dev/",
+        }
+      ],
+      [
+        "meta",
+        {
+          property: "og:description",
+          content: "Blog site for Franco Colaizzi - blog.fnc314.dev",
         }
       ]
     ],
