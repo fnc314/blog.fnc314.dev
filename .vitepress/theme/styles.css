@@ -35,18 +35,12 @@ main {
   }
 
   p {
-    margin-block: var(--sizes-margin-s);
     text-indent: var(--text-indent);
   }
 
   ol {
     list-style: revert;
     padding: revert;
-  }
-
-  a {
-    color: revert;
-    text-decoration: revert;
   }
 
   .custom-block {
