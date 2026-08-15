@@ -75,6 +75,15 @@ export default async () => {
       hostname: "https://blog.fnc314.dev",
       lastmodDateOnly: true,
     },
+    head: [
+      [
+        "link",
+        {
+          rel: "icon",
+          href: "./icon/favicon.ico"
+        }
+      ]
+    ],
     themeConfig: {
       aside: false,
       sidebar: {},
