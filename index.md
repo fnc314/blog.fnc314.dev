@@ -6,6 +6,13 @@ description: Home of my thoughts, concepts, and ramblings.
 hero:
   name: Franco's Blog
   tagline: Home of my thoughts, concepts, and ramblings.
+features:
+  - icon:
+      src: /taming-the-elephant-heard/gradle-logo.png
+      alt: Gradle logo
+    title: Taming the Elephant Heard
+    details: A series following the modernization, stabilization, and the reworking of a decade-old Android codebase into a future-proof workhorse.
+    link: ./posts/taming-the-elephant-heard/index
 ---
 
 <style module>
@@ -26,13 +33,6 @@ hero:
         max-inline-size: var(--sizes-dynamic-width-xs);
       }
     }
-  }
-
-  p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 </style>
 
@@ -59,7 +59,3 @@ hero:
     </figcaption>
   </figure>
 </section>
-
-<p>
-  <a href="./posts/">View Posts</a>
-</p>

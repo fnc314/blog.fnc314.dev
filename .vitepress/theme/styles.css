@@ -1,5 +1,5 @@
 html {
-  font-family: ui-monospace, ui-sans-serif;
+  font-family: ui-monospace, monospace, ui-sans-serif;
 }
 
 .home-link {
@@ -7,10 +7,6 @@ html {
 }
 
 main {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-
   h1, h2 {
     text-align: center;
     margin-block-start: var(--sizes-margin-m);

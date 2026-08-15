@@ -1,11 +1,14 @@
-#! /usr/bin/env zsh -S
+#! /usr/bin/env zsh
 #MISE alias="vp:p"
 #MISE description="The production build command"
-#MISE outputs=[".vitepress/dist/*"]
 #MISE shell="zsh"
-#MISE sources=["index.md", "./posts/**/*.md", ".vitepress/config.ts", ".vitepress/theme/*.{css,vue,ts}"]
 #MISE tools={ node = "latest", "npm:vite" = "latest", "npm:vitepress" = "latest" }
+#USAGE flag "-p" help="Runs `pnpm vitepress preview`" default="false"
 
 set -euo pipefail
 
-pnpm vitepress build
+if [[ "${usage_p:=false}" == "true" ]]; then
+  pnpm vitepress build && pnpm vitepress preview
+else
+  pnpm vitepress build
+fi
