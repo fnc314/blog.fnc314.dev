@@ -15,7 +15,7 @@
     "vitepress": "catalog:devDependencies"
   },
   "engines": {
-    "node": "26.7.0"
+    "node": "26.8.1"
   },
   "homepage": "https://blog.fnc314.dev",
   "name": "@fnc314/sites.blog",
