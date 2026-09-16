@@ -6,7 +6,7 @@ catalogs:
     vue: 3.5.42
   devDependencies:
     node: runtime:26.8.1
-    vite: 8.2.2
+    vite: 8.3.0
     vite-plugin-cem: 0.8.5
     vite-plugin-cp: 8.0.0
     vite-plugin-dts: 5.0.3
