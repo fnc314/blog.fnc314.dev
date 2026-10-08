@@ -178,8 +178,8 @@ catalogs:
       version: 3.5.43
   devDependencies:
     vite:
-      specifier: 8.3.2
-      version: 8.3.2
+      specifier: 8.3.3
+      version: 8.3.3
     vitepress:
       specifier: 1.6.4
       version: 1.6.4
@@ -213,7 +213,7 @@ importers:
         version: typescript@7.0.2
       vite:
         specifier: catalog:devDependencies
-        version: 8.3.2(@types/node@26.1.2)
+        version: 8.3.3(@types/node@26.1.2)
       vitepress:
         specifier: catalog:devDependencies
         version: 1.6.4(@algolia/client-search@5.56.0)(@types/node@26.1.2)(@types/nprogress@0.2.3)(@types/picomatch@4.0.3)(@types/qrcode@1.5.6)(@types/sortablejs@1.15.9)(@typescript/typescript6@6.0.2)(lightningcss@1.33.0)(postcss@8.5.26)(search-insights@2.17.3)
@@ -1407,8 +1407,8 @@ packages:
       yaml:
         optional: true
 
-  vite@8.3.2:
-    resolution: {integrity: sha512-SQr1x6W5vVSbROg7vsyXIaxK9b0G7zsT68acdWWRmnBUsgDieLCRG+Rep9WdZgcposvv/GSnr4GUUBqB3vXq6w==}
+  vite@8.3.3:
+    resolution: {integrity: sha512-cTAldKPImjg6c+gk48U19POPn3GCBzZwpdsN8ZMEEcbpes+6/wvfqUd0C2y3qYY4wsj8PwgFwrZ/1jBPVttMSg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2516,7 +2516,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/picomatch'
 
-  vite@8.3.2(@types/node@26.1.2):
+  vite@8.3.3(@types/node@26.1.2):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -2600,6 +2600,6 @@ snapshots:
 time:
   '@typescript/typescript6@6.0.2': '2026-07-06T18:06:47.459Z'
   typescript@7.0.2: '2026-07-08T15:55:18.431Z'
-  vite@8.3.2: '2026-10-01T10:17:44.767Z'
+  vite@8.3.3: '2026-10-06T04:10:19.326Z'
   vitepress@1.6.4: '2025-08-05T13:40:31.197Z'
   vue@3.5.43: '2026-09-17T08:39:03.208Z'
