@@ -2,8 +2,8 @@
 layout: doc
 sequence: 1
 title: From Mayhem to Micro-Managed
-series: Taiming the Elephant Heard
-description: The first of seven entries in the `Taming the Elephant Heard` series.
+series: Taming the Elephant Herd
+description: The first of seven entries in the `Taming the Elephant Herd` series.
 next:
   text: 2 Establishing Existing Order
   link: ../02-establishing-existing-order

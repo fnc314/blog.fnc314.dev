@@ -3,18 +3,18 @@ allowBuilds:
 catalogMode: "strict"
 catalogs:
   dependencies:
-    vue: 3.5.45
+    vue: 3.5.46
   devDependencies:
-    node: runtime:26.13.0
-    vite: 8.3.7
+    node: runtime:26.13.1
+    vite: 8.3.8
     vite-plugin-cem: 0.8.5
-    vite-plugin-cp: 8.0.0
-    vite-plugin-dts: 5.0.3
-    vite-plugin-lit-css: 3.0.0
-    vite-plugin-pwa: 1.3.0
-    vite-plugin-svgo: 3.0.1
+    vite-plugin-cp: 8.0.2
+    vite-plugin-dts: 5.1.2
+    vite-plugin-lit-css: 3.1.0
+    vite-plugin-pwa: 2.0.0
+    vite-plugin-svgo: 3.0.2
     vite-plugin-version-mark: 0.2.2
-    vite-plus: 0.2.9
+    vite-plus: 1.7.0
     vitepress: 1.6.4
   typescript:
     typescript: "npm:@typescript/typescript6@6.0.2"

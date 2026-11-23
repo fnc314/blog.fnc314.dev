@@ -18,6 +18,18 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [
+      {
+        "source": "/posts/taming-the-elephant-heard",
+        "destination": "/posts/taming-the-elephant-herd/",
+        "type": 301
+      },
+      {
+        "source": "/posts/taming-the-elephant-heard/:path*",
+        "destination": "/posts/taming-the-elephant-herd/:path*",
+        "type": 301
+      }
+    ],
     "frameworksBackend": {
       "region": "us-east4"
     },

@@ -1,11 +1,11 @@
 [tools]
-  firebase = "15.36.0"
-  node = "26.13.0"
-  npm = "12.2.2"
+  firebase = "15.37.0"
+  node = "26.13.1"
+  npm = "12.2.3"
   "npm:vite" = "8.3.8"
   "npm:vitepress" = "1.6.4"
-  pnpm = "12.21.0"
-  usage = { version = "7.3.0", workflow = "publish-cli.yml" }
+  pnpm = "12.23.0"
+  usage = { version = "7.4.0", workflow = "publish-cli.yml" }
 
 [deps]
   pnpm = { auto = true }

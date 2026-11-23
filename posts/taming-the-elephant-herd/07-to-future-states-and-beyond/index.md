@@ -2,7 +2,7 @@
 layout: doc
 sequence: 7
 title: To Future States and Beyond
-description: The seventh of seven entries in the `Taming the Elephant Heard` series.
+description: The seventh of seven entries in the `Taming the Elephant Herd` series.
 prev:
   text: 6 Screaming and Scripted Architecture
   link: ../06-screaming-and-scripted-architecture

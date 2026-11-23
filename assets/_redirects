@@ -1,0 +1,3 @@
+/posts/taming-the-elephant-heard /posts/taming-the-elephant-herd/ 301
+/posts/taming-the-elephant-heard/* /posts/taming-the-elephant-herd/:splat 301
+/taming-the-elephant-heard/* /taming-the-elephant-herd/:splat 301

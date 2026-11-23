@@ -1,14 +1,14 @@
 ---
 layout: home
-title: Taming The Elephant Heard
-titleTemplate: Taming The Elephant Heard
+title: Taming the Elephant Herd
+titleTemplate: Taming the Elephant Herd
 description: A series following the modernation, stabilization, and the reworking of a decade-old Android codebase into a future-proof workhorse.
 hero:
   name: fnc314
-  text: Taming the Elephant Heard
+  text: Taming the Elephant Herd
   tagline: A series following the modernation, stabilization, and the reworking of a decade-old Android codebase into a future-proof workhorse.
   image:
-    src: /../taming-the-elephant-heard/gradle-logo.png
+    src: /taming-the-elephant-herd/gradle-logo.png
     alt: Gradle Logo
   actions:
     - theme: brand

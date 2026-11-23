@@ -2,7 +2,7 @@
 layout: doc
 sequence: 5
 title: Right Tool for the Job
-description: The fifth of seven entries in the `Taming the Elephant Heard` series.
+description: The fifth of seven entries in the `Taming the Elephant Herd` series.
 prev:
   text: 4 Into the Wider Infrastructure
   link: ../04-into-the-wider-infrastructure
@@ -100,4 +100,4 @@ Due to the well defined boundary between these Composite Builds and the reposito
 
 With the repository re-aligned with best practices according to Android Gradle Plugin *and* Gradle, we were now equipped with a flexible, approachable, and easily maintained build tool. Long gone were the days of nondeterministic behaviors and there wasn’t a deprecation warning in sight. For the first time, in a long time, the Android project was one of the more highly praised facets of the entire department. As discussed in the next post, the project is now so predictable that most future enhancements come in the form of bash scripts and simple automations rather than changes to Gradle.
 
-[image1]: /taming-the-elephant-heard/05_taming-the-elephant-heard_right-tool-for-the-job_dependency-graph.jpg
+[image1]: /taming-the-elephant-herd/05_taming-the-elephant-herd_right-tool-for-the-job_dependency-graph.jpg

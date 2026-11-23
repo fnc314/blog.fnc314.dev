@@ -2,7 +2,7 @@
 layout: doc
 sequence: 2
 title: Establishing Existing Order
-description: The second of seven entries in the `Taming the Elephant Heard` series.
+description: The second of seven entries in the `Taming the Elephant Herd` series.
 prev:
   text: 1 From Mayhem to Micro-Managed
   link: ../01-from-mayhem-to-micro-managed

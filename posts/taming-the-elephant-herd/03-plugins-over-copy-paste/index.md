@@ -2,7 +2,7 @@
 layout: doc
 sequence: 3
 title: Plugins Over Copy-Paste
-description: The third of seven entries in the `Taming the Elephant Heard` series.
+description: The third of seven entries in the `Taming the Elephant Herd` series.
 prev:
   text: 2 Establishing Existing Order
   link: ../02-establishing-existing-order

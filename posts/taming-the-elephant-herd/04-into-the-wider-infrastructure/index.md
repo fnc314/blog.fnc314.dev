@@ -2,7 +2,7 @@
 layout: doc
 sequence: 4
 title: Into the Wider Infrastructure
-description: The fourth of seven entries in the `Taming the Elephant Heard` series.
+description: The fourth of seven entries in the `Taming the Elephant Herd` series.
 prev:
   text: 3 Plugins Over Copy-Paste
   link: ../03-plugins-over-copy-paste

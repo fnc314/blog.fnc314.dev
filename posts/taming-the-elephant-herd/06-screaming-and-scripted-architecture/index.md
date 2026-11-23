@@ -2,7 +2,7 @@
 layout: doc
 sequence: 6
 title: Screaming and Scripted Architecture
-description: The sixth of seven entries in the `Taming the Elephant Heard` series.
+description: The sixth of seven entries in the `Taming the Elephant Herd` series.
 prev:
   text: 5 Right Tool for the Job
   link: ../05-right-tool-for-the-job

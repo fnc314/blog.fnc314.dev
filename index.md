@@ -8,11 +8,11 @@ hero:
   tagline: Home of my thoughts, concepts, and ramblings.
 features:
   - icon:
-      src: /taming-the-elephant-heard/gradle-logo.png
+      src: /taming-the-elephant-herd/gradle-logo.png
       alt: Gradle logo
-    title: Taming the Elephant Heard
+    title: Taming the Elephant Herd
     details: A series following the modernization, stabilization, and the reworking of a decade-old Android codebase into a future-proof workhorse.
-    link: ./posts/taming-the-elephant-heard/index
+    link: ./posts/taming-the-elephant-herd/index
 ---
 
 <style module>
