@@ -10,6 +10,42 @@ export default async () => {
   // Keep your monorepo-root relative asset paths intact
   const iconsDir = "/icon";
 
+  const isProd = process.env.NODE_ENV === "production";
+  const gaId = isProd ? (process.env.VITE_GA_MEASUREMENT_ID || "G-PPQXH0KLWL") : "";
+  const analyticsHeadTags: import("vitepress").HeadConfig[] = gaId
+    ? [
+        [
+          "script",
+          {
+            async: "",
+            src: `https://www.googletagmanager.com/gtag/js?id=${gaId}`,
+          },
+        ],
+        [
+          "script",
+          {},
+          `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+window.gtag = gtag;
+gtag('js', new Date());
+gtag('config', '${gaId}', {
+  cookie_domain: 'auto',
+  send_page_view: false
+});`,
+        ],
+      ]
+    : [
+        [
+          "script",
+          {},
+          `window.gtag = function(...args) {
+  if (typeof process !== 'undefined' && process.env?.NODE_ENV === 'development') {
+    console.debug('[Analytics (DEV DUMMY)]', ...args);
+  }
+};`,
+        ],
+      ];
+
   const userConfig: UserConfig<DefaultTheme.Config> = {
     title: "Franco's Blog",
     description: "Blog Site",
@@ -272,6 +308,7 @@ export default async () => {
           content: "Profile Photo of Franco N. Colaizzi with a blurred background of Abruzzo, Italy from 2025",
         }
       ],
+      ...analyticsHeadTags,
     ],
     themeConfig: {
       aside: false,
