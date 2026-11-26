@@ -5,7 +5,7 @@
   "npm:vite" = "8.3.8"
   "npm:vitepress" = "1.6.4"
   pnpm = "12.23.0"
-  usage = { version = "7.4.0", workflow = "publish-cli.yml" }
+  usage = { version = "7.4.1", workflow = "publish-cli.yml" }
 
 [deps]
   pnpm = { auto = true }
